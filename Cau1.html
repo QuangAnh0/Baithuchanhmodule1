@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array=[];
+    let longs=parseInt(prompt("Nhập số lượng"));
+    let value;
+    function findAvg(avg){
+        Sum=0
+        for (let i=0;i<longs;i++){
+            array.push(value=parseInt(prompt("Nhập phần tử")));
+        }
+        for (let i=0;i<longs;i++){
+            Sum+=array[i];
+            Avg=Sum/longs;
+        }
+        return Avg;
+    }
+    document.write( "Value Avg is: "+ findAvg());
+</script>
+</body>
+</html>
